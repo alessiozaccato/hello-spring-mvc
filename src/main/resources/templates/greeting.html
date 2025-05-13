@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIAO!</title>
+</head>
+<body>
+
+<h1 style="color: red; margin-left: 20px;" th:text="'il tuo nome è: ' + ${name}"/>
+        <ul>
+            <li th:text="'la tua email è: '+ ${email}"/>
+            <li th:text="'la data odierna è: '+ ${time}"/>
+        </ul>
+    
+</body>
+</html>
